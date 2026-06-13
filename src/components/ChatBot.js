@@ -27,7 +27,7 @@ const submitLead = async () => {
   try {
 
     const response = await axios.post(
-      "https://localhost:7139/api/Lead",
+      "https://portfolio-api-waqp.onrender.com/api/Lead",
       lead
     );
 
@@ -72,7 +72,7 @@ catch(error)
 
     /*
     const response = await axios.post(
-      "https://localhost:7139/api/AI",
+      "https://portfolio-api-waqp.onrender.com/api/Lead",
       JSON.stringify(message),
       {
         headers: {
