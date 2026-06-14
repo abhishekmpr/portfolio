@@ -39,7 +39,8 @@ const [search, setSearch] = useState("");
     try {
 
       const response = await axios.get(
-        "https://localhost:7139/api/Lead"
+  
+  " https://portfolio-api-waqp.onrender.com/api/Lead"
       );
 
       setLeads(response.data);
